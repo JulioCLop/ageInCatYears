@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+<h1 id="namePara"></h1>
+
+
+    <script>
+        // assigns my age to the variable 
+        let myAge = 32;
+        // assigns value of 2 to variables
+        let earlyYears = 2;
+        //  This multiplys 2 by 25 to account for early growth
+        earlyYears *= 25;
+        let laterYears = myAge - 2;
+        laterYears *= 4;
+        // age in cat years
+        let  myAgeInCatYears = earlyYears + laterYears;
+        // assign my name in variable 
+        let  myName = "Julio";
+
+        document.getElementById('namePara').innerHTML = 'My name is ' + myName + '. I am ' + myAge + ' years old in human years, which is ' + myAgeInCatYears + ' years old in cat years.';
+        
+
+
+    </script>
+</body>
+</html>
